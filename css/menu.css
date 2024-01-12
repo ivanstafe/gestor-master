@@ -1,0 +1,76 @@
+.navbar {
+  background: linear-gradient(to bottom, #293036, #1a1c1e);
+  border: none;
+}
+
+/* Cambiar el color de los elementos del menú a blanco */
+.navbar-nav > li > a {
+  color: white;
+}
+
+/* Cambiar el color del nombre de usuario a azul */
+.navbar-nav > li.dropdown > a,
+.navbar-nav > li.dropdown > a:hover,
+.navbar-nav > li.dropdown > a:focus {
+  color: #007bff;
+}
+
+/* Cambio de color al pasar el mouse por encima */
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: #555;
+}
+
+/* Cambio de color al hacer clic */
+.navbar-nav > li > a:active {
+  background-color: #777;
+}
+
+/* Cambio de color de fondo y texto al seleccionar un elemento */
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus {
+  background-color: #007bff;
+  color: white; /* Cambia el color de texto a blanco */
+}
+
+/* Resto del código CSS sin cambios */
+html,body {
+    height:100%;
+    padding-top:70px;
+}
+
+section {
+  height:calc(90% - 50px);
+}
+
+.affix {
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+body{
+  background-color:#c5c5bd;
+}
+
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus {
+  background-color: #007bff;
+  color: black; /* Cambia el color del texto a negro */
+}
+
+
+/* Estilo para el contenedor del logo */
